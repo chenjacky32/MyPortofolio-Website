@@ -29,7 +29,7 @@ const ItemNavbar = [
 
 export default function Navbar() {
   return (
-    <div className="fixed top-0 left-0 right-0 z-10 p-6 bg-zinc-300 container-xl">
+    <div className="fixed top-0 left-0 right-0 z-10 p-6 mb-2 bg-transparent container-xl bg-cyan-400">
       <div className="container flex justify-between">
         <h1 className="text-3xl font-bold">Portofolio</h1>
         <ul className="flex items-center gap-6 ">

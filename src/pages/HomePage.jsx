@@ -1,36 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import { FaLinkedin } from "react-icons/fa6";
-import { FaPhoneAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa6";
-import { CgMail } from "react-icons/cg";
-
-const ItemContact = [
-  {
-    name: "Linkedin",
-    icon: <FaLinkedin size={25} />,
-    url: "https://www.linkedin.com/in/jacky-chen-3b9a8b1b8/",
-  },
-  {
-    name: "Phone",
-    icon: <FaPhoneAlt size={25} />,
-    url: "tel:+6281234567890",
-  },
-  {
-    name: "Github",
-    icon: <FaGithub size={25} />,
-    url: "https://github.com/jacky-chen",
-  },
-  {
-    name: "Email",
-    icon: <CgMail size={25} />,
-    url: "mailto:Chenjacky32@gmail",
-  },
-];
+import ItemContacts from "../component/ItemContacts";
 
 export default function Homepage() {
   return (
-    <section className="relative pb-20 bg-indigo-200 rounded-xl container-xl ">
-      <div className="container flex bg-indigo-50">
+    <section className="relative py-20 bg-indigo-200 container-xl">
+      <div className="container flex my-3 ">
         <div className="w-1/2 gap-4 px-20 m-auto">
           <h1 className="text-3xl font-bold">Hello all👋, I'm Jacky Chen</h1>
           <h2 className="text-2xl font-medium ">Junior Fullstack JavaScript Developer</h2>
@@ -47,17 +21,7 @@ export default function Homepage() {
           <img src="/src/assets/IMG_4357.jpg" className="rounded-2xl" alt="FOTO" />
         </div>
       </div>
-      <div className="relative right-0 left-4 bottom-80">
-        <div className="absolute flex flex-col gap-5 p-3 rounded-full bg-zinc-300 w-fit right-5">
-          {ItemContact.map((item) => (
-            <ul key={item.name} className="text-3xl font-bold">
-              <li className="text-3xl font-bold">
-                <a href={item.url}>{item.icon}</a>
-              </li>
-            </ul>
-          ))}
-        </div>
-      </div>
+      <ItemContacts />
     </section>
   );
 }
