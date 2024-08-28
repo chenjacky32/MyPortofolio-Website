@@ -2,7 +2,7 @@ import ItemContacts from "../component/ItemContacts";
 
 export default function AboutPage() {
   return (
-    <section className="py-20 bg-indigo-200 container-xl">
+    <section className="py-20 container-xl">
       <div className="container flex my-3">
         <div className="flex-col w-3/4 px-20 py-24">
           <h1 className="text-3xl font-bold">About Me</h1>

@@ -3,7 +3,7 @@ import ItemContacts from "../component/ItemContacts";
 
 export default function Homepage() {
   return (
-    <section className="relative py-20 bg-indigo-200 container-xl">
+    <section className="relative py-20 container-xl">
       <div className="container flex my-3 ">
         <div className="w-1/2 gap-4 px-20 m-auto">
           <h1 className="text-3xl font-bold">Hello all👋, I'm Jacky Chen</h1>
