@@ -18,8 +18,8 @@ export default function ItemProjectGrid() {
           <li className="p-2 rounded-sm bg-slate-200">Shadcn UI</li>
         </ul>
         <div className="flex gap-4 py-3 mt-8 font-bold">
-          <button className="p-2 rounded-md bg-slate-300">Live Demo</button>
-          <button className="p-2 rounded-md bg-slate-300">Repository Project</button>
+          <button className="p-2 rounded-md bg-slate-300 hover:bg-green-600 ">Live Demo</button>
+          <button className="p-2 rounded-md bg-slate-300 hover:bg-green-600">Repository Project</button>
         </div>
       </div>
     </div>

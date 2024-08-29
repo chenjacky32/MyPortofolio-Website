@@ -20,8 +20,8 @@ export default function ItemProjects() {
           </ul>
         </div>
         <div className="flex gap-4 px-5 py-3 font-bold">
-          <button className="p-2 rounded-md bg-slate-300">Live Demo</button>
-          <button className="p-2 rounded-md bg-slate-300">Repository Project</button>
+          <button className="p-2 rounded-md bg-slate-300 hover:bg-green-600">Live Demo</button>
+          <button className="p-2 rounded-md bg-slate-300 hover:bg-green-600">Repository Project</button>
         </div>
       </div>
     </div>
