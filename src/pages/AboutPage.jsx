@@ -3,7 +3,7 @@ import ItemContacts from "../component/ItemContacts";
 export default function AboutPage() {
   return (
     <section className="py-20 container-xl">
-      <div className="container flex my-3">
+      <div className="container flex my-3 bg-red-300">
         <div className="flex-col w-3/4 px-20 py-24">
           <h1 className="text-3xl font-bold">About Me</h1>
           <p className="my-5 leading-6 text-justify">

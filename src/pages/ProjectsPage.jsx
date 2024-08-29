@@ -6,7 +6,7 @@ import { IoIosList } from "react-icons/io";
 export default function ProjectsPage() {
   return (
     <section className="py-20 container-xl">
-      <div className="container flex flex-col gap-5 px-10 py-24">
+      <div className="container flex flex-col gap-5 px-10 py-24 my-3 bg-red-300">
         <h1 className="text-3xl font-bold text-start">My Projects</h1>
         <div className="flex justify-end gap-3 ">
           <div className="flex flex-col w-1/3 gap-4 px-2 py-4 ">
