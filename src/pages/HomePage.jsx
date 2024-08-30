@@ -4,7 +4,7 @@ import ItemContacts from "../component/ItemContacts";
 export default function Homepage() {
   return (
     <section className="relative py-20 container-xl bg-bg100">
-      <div className="container flex my-3">
+      <div className="container flex my-3 bg-bg200">
         <div className="w-1/2 gap-4 px-20 m-auto">
           <h1 className="text-4xl font-bold text-text100">Hello all👋, I'm Jacky Chen</h1>
           <div className="my-5">
