@@ -79,6 +79,46 @@ export const followMeOn = [
   },
 ];
 
-// <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-//   <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path>
-// </svg>
+export const myProjects = [
+  {
+    id: "project-1",
+    name: "Landing Page Miracell Safety",
+    description: `A static web-based landing page designed to showcase the Miracell Safety company profile
+                  in an engaging and informative manner, with the goal of introducing the company to potential clients and
+                  business partners.`,
+    date: "06 December 2023",
+    techStack: ["HTML", "CSS", "Javascript"],
+    repository: "https://github.com/chenjacky32/Landing-Page-Miracell-Safety",
+    liveDemo: "",
+  },
+  {
+    id: "project-2",
+    name: "Personal Notes Apps",
+    description: `A web-based note management application designed to help and simplify the process of
+                  organizing, storing, and accessing notes easily and efficiently.`,
+    date: "2 April 2024",
+    techStack: ["React", "Javascript", "CSS"],
+    repository: "https://github.com/chenjacky32/Personal-Notes-APP-Submission-2",
+    liveDemo: "",
+  },
+  {
+    id: "project-3",
+    name: "Forum Discussion Website",
+    description: `A website designed to facilitate user discussions. The platform allows users to engage in
+                  conversations, exchange ideas, and discuss various topics efficiently.`,
+    date: "7 May 2024",
+    techStack: ["React", "CSS", "Redux Thunk", "Vitest", "Eslint"],
+    repository: "https://github.com/chenjacky32/Submission_Forum_App",
+    liveDemo: "",
+  },
+  {
+    id: "project-4",
+    name: "To-Do List Pariwisata Bali Website",
+    description: `A website to centralize reliable information about Bali tourism, simplifying travel planning
+                  and exploration for tourists.`,
+    date: "30 May 2024",
+    techStack: ["Node.js", "Hapi.js", "Prisma", "Supabase", "AWS"],
+    repository: "https://github.com/chenjacky32/Capstone-Bali_API",
+    liveDemo: "",
+  },
+];

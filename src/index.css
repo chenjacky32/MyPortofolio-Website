@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-100: 0, 119, 194;
+    --primary-200: 89, 165, 245;
+    --primary-300: 200, 255, 255;
+    --accent-100: 0, 191, 255;
+    --accent-200: 0, 97, 154;
+    --text-100: 51, 51, 51;
+    --text-200: 92, 92, 92;
+    --bg-100: 255, 255, 255;
+    --bg-200: 245, 245, 245;
+    --bg-300: 204, 204, 204;
+  }
+}

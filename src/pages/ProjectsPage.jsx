@@ -1,9 +1,12 @@
+/* eslint-disable react/jsx-no-duplicate-props */
 import ItemProjectList from "../component/ItemProjectsList";
 import ItemProjectGrid from "../component/ItemProjectGrid";
 import ContainerProjectsGrid from "../component/ContainerProjectsGrid";
 import { IoGridOutline } from "react-icons/io5";
 import { IoIosList } from "react-icons/io";
 import { useState } from "react";
+import { myProjects } from "../utils/utils";
+
 export default function ProjectsPage() {
   const [toggleView, setToggleView] = useState("grid");
   return (
@@ -26,18 +29,15 @@ export default function ProjectsPage() {
         </div>
         {toggleView === "grid" ? (
           <ContainerProjectsGrid>
-            <ItemProjectGrid />
-            <ItemProjectGrid />
-            <ItemProjectGrid />
-            <ItemProjectGrid />
-            <ItemProjectGrid />
-            <ItemProjectGrid />
+            {myProjects.map((project) => (
+              <ItemProjectGrid {...project} key={project.id} />
+            ))}
           </ContainerProjectsGrid>
         ) : (
           <div className="p-5 bg-green-600 min-w-fit">
-            <ItemProjectList />
-            <ItemProjectList />
-            <ItemProjectList />
+            {myProjects.map((item) => (
+              <ItemProjectList key={item.id} {...item} />
+            ))}
           </div>
         )}
       </div>
