@@ -29,14 +29,14 @@ const ItemContact = [
 export default function ItemContacts() {
   return (
     <div className="fixed right-0 left-4 bottom-80">
-      <div className="absolute right-0 flex flex-col gap-5 p-3 rounded-xl w-fit bg-bg300/40">
-        {ItemContact.map((item) => (
-          <ul key={item.name} className="duration-75 ease-in-out text-text100 hover:text-accent100">
-            <li className="text-3xl font-bold duration-100 ">
+      <div className="absolute right-0 flex flex-col gap-5 p-3 rounded-md w-fit bg-bg300/40">
+        <ul className="flex flex-col gap-5">
+          {ItemContact.map((item) => (
+            <li key={item.name} className="text-3xl font-bold duration-100 ease-in-out text-text100 hover:text-accent100">
               <a href={item.url}>{item.icon}</a>
             </li>
-          </ul>
-        ))}
+          ))}
+        </ul>
       </div>
     </div>
   );

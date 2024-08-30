@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <section className="py-20 container-xl bg-bg100">
       <div className="container flex my-3 bg-bg200">
-        <div className="flex-col w-3/4 px-20 py-24">
+        <div className="flex-col w-3/4 px-20 py-10">
           <h1 className="text-4xl font-bold text-text100">About Me</h1>
           <p className="my-5 text-xl font-medium leading-8 text-justify text-text200">
             I am a recent graduate in Information Systems from Institut Bisnis & Teknologi Pelita Indonesia with a strong passion for web development. My 3-year experience as a marketing staff at CV. Teknik Steel Pekanbaru honed my
@@ -12,7 +12,7 @@ export default function AboutPage() {
             collaboration using Git/GitHub, gained from the Dicoding Bootcamp.
           </p>
         </div>
-        <div className="flex justify-end w-1/2 p-20 ">
+        <div className="flex justify-end w-1/2 px-20 py-10 ">
           <img src="/src/assets/mikhail-fesenko-p6YWrjhmjhM-unsplash.jpg" alt="foto" className="w-full h-3/4 rounded-3xl" />
         </div>
       </div>

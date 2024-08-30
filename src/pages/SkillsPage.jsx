@@ -64,7 +64,7 @@ const ItemSkills = [
 export default function Skillspage() {
   return (
     <section className="py-20 container-xl bg-bg100">
-      <div className="container flex flex-col px-20 py-24 my-3 ">
+      <div className="container flex flex-col px-20 py-10 my-3 ">
         <h1 className="text-4xl font-bold text-start text-text100">My skills</h1>
         <div className="grid gap-3 p-5 xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 justify-items-center h-fit ">
           {ItemSkills.map((item, index) => (
