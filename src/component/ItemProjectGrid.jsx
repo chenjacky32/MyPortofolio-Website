@@ -5,7 +5,7 @@ import { GrView } from "react-icons/gr";
 export default function ItemProjectGrid(props) {
   const { name, description, date, techStack, repository, liveDemo } = props;
   return (
-    <div className="max-w-md p-3 border-gray-200 rounded-lg shadow bg-sky-300">
+    <div className="max-w-md p-3 border-gray-200 rounded-lg shadow-lg bg-bg300/75">
       <img className="rounded-lg h-[300px] w-full object-cover" src="/src/assets/mikhail-fesenko-p6YWrjhmjhM-unsplash.jpg" alt="" />
       <div className="p-5 text-justify ">
         <div className="flex flex-row-reverse items-baseline justify-between">
@@ -22,7 +22,7 @@ export default function ItemProjectGrid(props) {
         </ul>
         <div className="flex gap-4 py-3 mt-8 font-bold">
           <div>
-            <a href={liveDemo} className="flex gap-3 p-3 m-auto rounded-full bg-text100 text-bg200 hover:bg-text200">
+            <a href={liveDemo} className="flex gap-3 p-3 m-auto text-sm rounded-full bg-text100 text-bg200 hover:bg-text200">
               Live Demo
               <span>
                 <GrView size="20" />
@@ -30,7 +30,7 @@ export default function ItemProjectGrid(props) {
             </a>
           </div>
           <div>
-            <a href={repository} className="flex gap-3 p-3 m-auto rounded-full bg-accent200 text-bg200 hover:bg-primary100">
+            <a href={repository} className="flex justify-center gap-3 p-3 m-auto text-sm rounded-full bg-accent200 text-bg200 hover:bg-primary100">
               Repository
               <span>
                 {" "}

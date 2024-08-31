@@ -8,7 +8,7 @@ export default function Homepage() {
         <div className="w-1/2 gap-4 px-20 m-auto">
           <h1 className="text-4xl font-bold text-text100">Hello all👋, I'm Jacky Chen</h1>
           <div className="my-5">
-            <h2 className="my-3 text-2xl font-semibold text-text100 ">Junior Fullstack JavaScript Developer</h2>
+            <h2 className="my-3 text-2xl font-semibold text-text100">Junior Fullstack JavaScript Developer</h2>
             <p className="text-xl font-medium text-justify text-text200">
               As a Fullstack Developer, I Specialize in building interactive and responsive website with a focus on user experience. on the backend, I create scallable API'S to effeciency handle server-side request.{" "}
             </p>

@@ -1,4 +1,4 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter, Navigate } from "react-router-dom";
 import RootPage from "./pages/RootPage";
 import Errorpage from "./pages/Errorpage";
 import Homepage from "./pages/HomePage";
@@ -14,6 +14,10 @@ export default function App() {
       element: <RootPage />,
       errorElement: <Errorpage />,
       children: [
+        {
+          index: true,
+          element: <Navigate to="/homepage" replace />,
+        },
         {
           path: "homepage",
           element: <Homepage />,

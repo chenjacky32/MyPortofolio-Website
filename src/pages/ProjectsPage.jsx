@@ -11,7 +11,7 @@ export default function ProjectsPage() {
   const [toggleView, setToggleView] = useState("list");
   return (
     <section className="py-20 container-xl bg-bg100">
-      <div className="container flex flex-col px-20 py-10 my-3">
+      <div className="container flex flex-col px-20 py-10 my-3 ">
         <h1 className="text-4xl font-bold text-start text-text100">My Projects</h1>
         <div className="flex justify-end gap-3 ">
           <div className="flex flex-col w-1/3 gap-4 px-2 py-4 ">
