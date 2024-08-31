@@ -65,7 +65,7 @@ export default function Skillspage() {
   return (
     <section className="py-20 container-xl bg-bg100">
       <div className="container flex flex-col px-20 py-10 my-3 ">
-        <h1 className="text-4xl font-bold text-start text-text100">My skills</h1>
+        <h1 className="text-4xl font-bold text-start sm:text-2xl max-sm:text-2xl text-text100 lg:text-3xl">My skills</h1>
         <div className="grid gap-3 p-5 xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 justify-items-center h-fit ">
           {ItemSkills.map((item, index) => (
             <div
@@ -74,8 +74,8 @@ export default function Skillspage() {
             >
               <img src={item.img} alt={item.name} />
               <div className="flex flex-col gap-3 m-auto">
-                <h3 className="text-2xl font-bold text-text100">{item.name}</h3>
-                <p className="text-xl font-normal text-text200">{item.level}</p>
+                <h3 className="text-2xl font-bold text-text100 sm:text-base max-sm:text-base md:text-xl">{item.name}</h3>
+                <p className="text-xl font-normal text-text200 lg:text-xl m sm:text-base max-sm:text-base">{item.level}</p>
               </div>
             </div>
           ))}
