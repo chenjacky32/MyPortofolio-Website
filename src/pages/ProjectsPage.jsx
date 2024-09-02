@@ -32,7 +32,7 @@ export default function ProjectsPage() {
     <section className="py-20 container-xl max-sm:container-sm sm:container-sm bg-bg100 ">
       <div className="container flex flex-col px-20 py-10 my-3 max-sm:px-3">
         <h1 className="text-4xl font-bold text-start text-text100 sm:text-2xl max-sm:text-2xl lg:text-3xl max-sm:pl-4">My Projects</h1>
-        <div className="flex justify-end gap-3 ">
+        <div className="flex justify-end gap-3">
           <div className="relative flex flex-col gap-4 p-4">
             <input type="text" placeholder="Search Here..." className="px-4 py-2 border-2 shadow-md rounded-xl border-bg300" value={search} onChange={handleChangeSearch} />
             <div className="flex justify-end gap-3">

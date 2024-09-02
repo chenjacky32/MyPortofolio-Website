@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import ItemContacts from "../component/ItemContacts";
+import { Link } from "react-router-dom";
 
 export default function Homepage() {
   return (
-    <section className="relative py-20 container-xl bg-bg100">
+    <section className="py-20 container-l">
       <div className="container flex my-3 lg:flex-row sm:flex-col-reverse max-sm:flex-col-reverse sm:py-5 max-sm:py-5 max-sm:content-center sm:content-center lg:my-10 ">
         <div className="w-1/2 gap-4 px-20 m-auto sm:w-full max-sm:w-full">
           <h1 className="text-4xl font-bold lg:text-3xl text-text100 sm:text-2xl max-sm:text-xl">Hello all👋, I'm Jacky Chen</h1>
@@ -16,7 +17,9 @@ export default function Homepage() {
           <p className="text-2xl font-bold text-text100 sm:text-base max-sm:text-base md:text-xl ">Let's connect and collaborate!🚀</p>
           <div className="flex gap-4 mt-3 ">
             <button className="font-bold rounded md:py-2 md:px-4 sm:text-sm sm:p-2 max-sm:text-xs max-sm:p-2 text-bg200 bg-accent200 hover:bg-accent100 ">View my CV</button>
-            <button className="font-bold rounded md:py-2 md:px-4 sm:text-sm sm:p-2 max-sm:text-xs max-sm:p-2 text-bg200 bg-text100 hover:bg-text200">See My Projects</button>
+            <Link to="/projects" className="font-bold rounded md:py-2 md:px-4 sm:text-sm sm:p-2 max-sm:text-xs max-sm:p-2 text-bg200 bg-text100 hover:bg-text200">
+              See My Projects
+            </Link>
           </div>
         </div>
         <div className="w-1/2 m-3 sm:w-full max-sm:w-full sm:px-5 sm:py-3 sm:flex sm:justify-center max-sm:flex max-sm:justify-center max-sm:px-5 max-sm:py-3">
