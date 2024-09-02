@@ -1,6 +1,6 @@
 import { RouterProvider, createBrowserRouter, Navigate } from "react-router-dom";
 import RootPage from "./pages/RootPage";
-import Errorpage from "./pages/Errorpage";
+import ErrorPage from "./pages/ErrorPage";
 import Homepage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import Skillspage from "./pages/Skillspage";
@@ -12,7 +12,7 @@ export default function App() {
     {
       path: "/",
       element: <RootPage />,
-      errorElement: <Errorpage />,
+      errorElement: <ErrorPage />,
       children: [
         {
           index: true,
