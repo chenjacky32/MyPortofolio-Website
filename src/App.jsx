@@ -3,7 +3,7 @@ import RootPage from "./pages/RootPage";
 import ErrorPage from "./pages/ErrorPage";
 import Homepage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
-import Skillspage from "./pages/Skillspage";
+import SkillsPage from "./pages/SkillsPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
 
@@ -28,7 +28,7 @@ export default function App() {
         },
         {
           path: "skills",
-          element: <Skillspage />,
+          element: <SkillsPage />,
         },
         {
           path: "projects",

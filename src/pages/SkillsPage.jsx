@@ -1,67 +1,6 @@
-const ItemSkills = [
-  {
-    name: "HTML",
-    img: "/src/assets/html.svg",
-    level: "Advanced",
-  },
-  {
-    name: "CSS",
-    img: "/src/assets/css.svg",
-    level: "Advanced",
-  },
-  {
-    name: "Javascript",
-    img: "/src/assets/javascript.svg",
-    level: "Intermediate",
-  },
-  {
-    name: "Typescript",
-    img: "/src/assets/typescript.svg",
-    level: "Intermediate",
-  },
-  {
-    name: "React",
-    img: "/src/assets/reactjs.svg",
-    level: "Advanced",
-  },
-  {
-    name: "Node.js",
-    img: "/src/assets/nodejs.svg",
-    level: "Intermediate",
-  },
-  {
-    name: "Express.js",
-    img: "/src/assets/express.svg",
-    level: "Intermediate",
-  },
-  {
-    name: "Tailwind",
-    img: "/src/assets/tailwind.svg",
-    level: "Intermediate",
-  },
-  {
-    name: "Mysql",
-    img: "/src/assets/mysql.svg",
-    level: "Intermediate",
-  },
-  {
-    name: "PostgreSQL",
-    img: "/src/assets/postgresql.svg",
-    level: "Intermediate",
-  },
-  {
-    name: "Prisma",
-    img: "/src/assets/prisma.svg",
-    level: "Intermediate",
-  },
-  {
-    name: "Redux",
-    img: "/src/assets/redux.svg",
-    level: "Intermediate",
-  },
-];
+import { ItemSkills } from "../utils/utils";
 
-export default function Skillspage() {
+export default function SkillsPage() {
   return (
     <section className="py-20 container-xl bg-bg100">
       <div className="container flex flex-col px-20 py-10 my-3 ">
