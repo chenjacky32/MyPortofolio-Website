@@ -1,5 +1,4 @@
-// import ItemContacts from "../component/ItemContacts";
-
+import AboutPhoto from "../assets/mikhail-fesenko-p6YWrjhmjhM-unsplash.jpg";
 export default function AboutPage() {
   return (
     <section className="py-20 container-xl bg-bg100">
@@ -12,11 +11,10 @@ export default function AboutPage() {
             collaboration using Git/GitHub, gained from the Dicoding Bootcamp.
           </p>
           <div className="order-2 py-5 ">
-            <img src="/src/assets/mikhail-fesenko-p6YWrjhmjhM-unsplash.jpg" alt="foto" className="object-cover h-full shadow-2xl sm:h-96 sm:w-full max-sm:h-72 max-sm:w-full rounded-2xl" />
+            <img src={AboutPhoto} alt="foto" className="object-cover h-full shadow-2xl sm:h-96 sm:w-full max-sm:h-72 max-sm:w-full rounded-2xl" />
           </div>
         </div>
       </div>
-      {/* <ItemContacts /> */}
     </section>
   );
 }

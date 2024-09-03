@@ -1,3 +1,16 @@
+import Html from "../assets/html.svg";
+import Css from "../assets/css.svg";
+import Javascript from "../assets/javascript.svg";
+import Typescript from "../assets/typescript.svg";
+import React from "../assets/reactjs.svg";
+import Node from "../assets/nodejs.svg";
+import Express from "../assets/express.svg";
+import Mysql from "../assets/mysql.svg";
+import Postgresql from "../assets/postgresql.svg";
+import Redux from "../assets/redux.svg";
+import Tailwind from "../assets/tailwind.svg";
+import Prisma from "../assets/prisma.svg";
+
 export const contactInfo = [
   {
     id: 1,
@@ -126,62 +139,62 @@ export const myProjects = [
 export const ItemSkills = [
   {
     name: "HTML",
-    img: "/src/assets/html.svg",
+    img: Html,
     level: "Advanced",
   },
   {
     name: "CSS",
-    img: "/src/assets/css.svg",
+    img: Css,
     level: "Advanced",
   },
   {
     name: "Javascript",
-    img: "/src/assets/javascript.svg",
+    img: Javascript,
     level: "Intermediate",
   },
   {
     name: "Typescript",
-    img: "/src/assets/typescript.svg",
+    img: Typescript,
     level: "Intermediate",
   },
   {
     name: "React",
-    img: "/src/assets/reactjs.svg",
+    img: React,
     level: "Advanced",
   },
   {
     name: "Node.js",
-    img: "/src/assets/nodejs.svg",
+    img: Node,
     level: "Intermediate",
   },
   {
     name: "Express.js",
-    img: "/src/assets/express.svg",
+    img: Express,
     level: "Intermediate",
   },
   {
     name: "Tailwind",
-    img: "/src/assets/tailwind.svg",
+    img: Tailwind,
     level: "Intermediate",
   },
   {
     name: "Mysql",
-    img: "/src/assets/mysql.svg",
+    img: Mysql,
     level: "Intermediate",
   },
   {
     name: "PostgreSQL",
-    img: "/src/assets/postgresql.svg",
+    img: Postgresql,
     level: "Intermediate",
   },
   {
     name: "Prisma",
-    img: "/src/assets/prisma.svg",
+    img: Prisma,
     level: "Intermediate",
   },
   {
     name: "Redux",
-    img: "/src/assets/redux.svg",
+    img: Redux,
     level: "Intermediate",
   },
 ];
