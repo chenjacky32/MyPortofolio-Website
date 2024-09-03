@@ -17,7 +17,9 @@ export default function Homepage() {
           </div>
           <p className="text-2xl font-bold text-text100 sm:text-base max-sm:text-base md:text-xl ">Let's connect and collaborate!🚀</p>
           <div className="flex gap-4 mt-3 ">
-            <button className="font-bold rounded md:py-2 md:px-4 sm:text-sm sm:p-2 max-sm:text-xs max-sm:p-2 text-bg200 bg-accent200 hover:bg-accent100 ">View my CV</button>
+            <a href="https://drive.google.com/file/d/1IU5K0Xpt3kEDCLFokSCO8j3YJQj80gP8/view?usp=sharing" className="font-bold rounded md:py-2 md:px-4 sm:text-sm sm:p-2 max-sm:text-xs max-sm:p-2 text-bg200 bg-accent200 hover:bg-accent100 ">
+              View my CV
+            </a>
             <Link to="/projects" className="font-bold rounded md:py-2 md:px-4 sm:text-sm sm:p-2 max-sm:text-xs max-sm:p-2 text-bg200 bg-text100 hover:bg-text200">
               See My Projects
             </Link>
