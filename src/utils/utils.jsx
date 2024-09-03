@@ -11,6 +11,8 @@ import Redux from "../assets/redux.svg";
 import Tailwind from "../assets/tailwind.svg";
 import Prisma from "../assets/prisma.svg";
 
+import Project1 from "../assets/projects/1.jpg";
+
 export const contactInfo = [
   {
     id: 1,
@@ -100,9 +102,10 @@ export const myProjects = [
                   in an engaging and informative manner, with the goal of introducing the company to potential clients and
                   business partners.`,
     date: "06 December 2023",
+    img: Project1,
     techStack: ["HTML", "CSS", "Javascript"],
     repository: "https://github.com/chenjacky32/Landing-Page-Miracell-Safety",
-    liveDemo: "",
+    liveDemo: "https://landing-page-miracell-safety.vercel.app",
   },
   {
     id: "project-2",
@@ -110,9 +113,10 @@ export const myProjects = [
     description: `A web-based note management application designed to help and simplify the process of
                   organizing, storing, and accessing notes easily and efficiently.`,
     date: "2 April 2024",
+    img: Project1,
     techStack: ["React", "Javascript", "CSS"],
     repository: "https://github.com/chenjacky32/Personal-Notes-APP-Submission-2",
-    liveDemo: "",
+    liveDemo: "personal-notes-app-submission-2.vercel.app",
   },
   {
     id: "project-3",
@@ -120,9 +124,10 @@ export const myProjects = [
     description: `A website designed to facilitate user discussions. The platform allows users to engage in
                   conversations, exchange ideas, and discuss various topics efficiently.`,
     date: "7 May 2024",
+    img: Project1,
     techStack: ["React", "CSS", "Redux Thunk", "Vitest", "Eslint"],
     repository: "https://github.com/chenjacky32/Submission_Forum_App",
-    liveDemo: "",
+    liveDemo: "submission-forum-app.vercel.app",
   },
   {
     id: "project-4",
@@ -130,9 +135,10 @@ export const myProjects = [
     description: `A website to centralize reliable information about Bali tourism, simplifying travel planning
                   and exploration for tourists.`,
     date: "30 May 2024",
+    img: Project1,
     techStack: ["Node.js", "Hapi.js", "Prisma", "Supabase", "AWS"],
     repository: "https://github.com/chenjacky32/Capstone-Bali_API",
-    liveDemo: "",
+    liveDemo: "https://dokumentasi-capstone-bali-bn2q.vercel.app/#/",
   },
 ];
 

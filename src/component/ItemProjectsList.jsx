@@ -2,10 +2,10 @@
 import { FaGithub } from "react-icons/fa";
 import { GrView } from "react-icons/gr";
 export default function ItemProjects(props) {
-  const { name, description, date, techStack, repository, liveDemo } = props;
+  const { name, description, date, img, techStack, repository, liveDemo } = props;
   return (
     <div className="flex w-full gap-5 p-5 mb-8 text-justify shadow-xl rounded-xl bg-bg300/50 md:flex-row sm:flex-col max-sm:flex-col">
-      <img src="/src/assets/mikhail-fesenko-p6YWrjhmjhM-unsplash.jpg" alt="project" className="rounded-xl w-80 object-cover sm:h-[200px] sm:w-full object-center max-sm:h-[200px] max-sm:w-full md:h-[350px] md:w-48 lg:h-[410px] lg:w-72" />
+      <img src={img} alt="project" className="rounded-xl w-80 object-cover sm:h-[200px] sm:w-full object-center max-sm:h-[200px] max-sm:w-full md:h-[350px] md:w-48 lg:h-[410px] lg:w-72" />
       <div className="flex flex-col justify-between py-2">
         <div className="flex flex-col ">
           <div className="flex items-center justify-between sm:flex-col max-sm:flex-col sm:items-start max-sm:items-start md:flex-row">
