@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import ItemContacts from "../component/ItemContacts";
 import { Link } from "react-router-dom";
+import Foto from "../assets/IMG_4357.jpg";
 
 export default function Homepage() {
   return (
@@ -23,7 +24,7 @@ export default function Homepage() {
           </div>
         </div>
         <div className="w-1/2 m-3 sm:w-full max-sm:w-full sm:px-5 sm:py-3 sm:flex sm:justify-center max-sm:flex max-sm:justify-center max-sm:px-5 max-sm:py-3">
-          <img src="/src/assets/IMG_4357.jpg" className="object-cover h-full shadow-md rounded-3xl sm:object-cover sm:h-52 max-sm:h-52 lg:h-full" alt="FOTO" />
+          <img src={Foto} className="object-cover h-full shadow-md rounded-3xl sm:object-cover sm:h-52 max-sm:h-52 lg:h-full" alt="FOTO" />
         </div>
       </div>
       <ItemContacts />
