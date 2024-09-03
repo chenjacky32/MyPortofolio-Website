@@ -10,8 +10,10 @@ import Postgresql from "../assets/postgresql.svg";
 import Redux from "../assets/redux.svg";
 import Tailwind from "../assets/tailwind.svg";
 import Prisma from "../assets/prisma.svg";
-
-import Project1 from "../assets/projects/1.jpg";
+import Project1 from "../assets/projects/Screenshot 2024-02-01 180021.png";
+import Project2 from "../assets/projects/Screenshot 2024-09-03 121405.png";
+import Project3 from "../assets/projects/Screenshot 2024-09-03 121608.png";
+import Project4 from "../assets/projects/Screenshot 2024-09-03 122003.png";
 
 export const contactInfo = [
   {
@@ -113,10 +115,10 @@ export const myProjects = [
     description: `A web-based note management application designed to help and simplify the process of
                   organizing, storing, and accessing notes easily and efficiently.`,
     date: "2 April 2024",
-    img: Project1,
+    img: Project2,
     techStack: ["React", "Javascript", "CSS"],
     repository: "https://github.com/chenjacky32/Personal-Notes-APP-Submission-2",
-    liveDemo: "personal-notes-app-submission-2.vercel.app",
+    liveDemo: "https://personal-notes-app-submission-2.vercel.app",
   },
   {
     id: "project-3",
@@ -124,18 +126,18 @@ export const myProjects = [
     description: `A website designed to facilitate user discussions. The platform allows users to engage in
                   conversations, exchange ideas, and discuss various topics efficiently.`,
     date: "7 May 2024",
-    img: Project1,
+    img: Project3,
     techStack: ["React", "CSS", "Redux Thunk", "Vitest", "Eslint"],
     repository: "https://github.com/chenjacky32/Submission_Forum_App",
-    liveDemo: "submission-forum-app.vercel.app",
+    liveDemo: "https://submission-forum-app.vercel.app",
   },
   {
     id: "project-4",
-    name: "To-Do List Pariwisata Bali Website",
+    name: "To-Do List Pariwisata Bali Website API",
     description: `A website to centralize reliable information about Bali tourism, simplifying travel planning
                   and exploration for tourists.`,
     date: "30 May 2024",
-    img: Project1,
+    img: Project4,
     techStack: ["Node.js", "Hapi.js", "Prisma", "Supabase", "AWS"],
     repository: "https://github.com/chenjacky32/Capstone-Bali_API",
     liveDemo: "https://dokumentasi-capstone-bali-bn2q.vercel.app/#/",

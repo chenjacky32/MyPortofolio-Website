@@ -6,7 +6,7 @@ export default function ItemProjectGrid(props) {
   const { name, description, date, img, techStack, repository, liveDemo } = props;
   return (
     <div className="flex flex-col p-3 border-gray-200 rounded-lg shadow-lg bg-bg300/75">
-      <img className="object-cover w-full rounded-lg sm:h-[200px] max-sm:h-[200px]" src={img} alt="" />
+      <img className="object-center shadow-md w-full rounded-lg sm:h-[200px] max-sm:h-[200px]" src={img} alt="" />
       <div className="flex flex-col p-2 text-justify grow">
         <div className="flex flex-row-reverse items-baseline justify-between flex-initial mb-4 basis-1/4 sm:flex-col-reverse md:flex-col-reverse max-sm:flex-col-reverse">
           <p className="text-lg basis-1/2 font-extralight lg:text-lg text-end text-text100 max-sm:w-full sm:text-sm max-sm:text-sm sm:text-start max-sm:text-start">{date}</p>

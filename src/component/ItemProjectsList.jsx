@@ -5,8 +5,8 @@ export default function ItemProjects(props) {
   const { name, description, date, img, techStack, repository, liveDemo } = props;
   return (
     <div className="flex w-full gap-5 p-5 mb-8 text-justify shadow-xl rounded-xl bg-bg300/50 md:flex-row sm:flex-col max-sm:flex-col">
-      <img src={img} alt="project" className="rounded-xl w-80 object-cover sm:h-[200px] sm:w-full object-center max-sm:h-[200px] max-sm:w-full md:h-[350px] md:w-48 lg:h-[410px] lg:w-72" />
-      <div className="flex flex-col justify-between py-2">
+      <img src={img} alt="project" className="lg:basis-3/4 md:basis-3/5 shadow-md rounded-xl w-80 sm:h-[200px] sm:w-full object-center max-sm:h-[200px] max-sm:w-full md:h-[350px] md:w-64  md:object-fill lg:h-[410px] lg:w-72" />
+      <div className="flex flex-col justify-between py-2 lg:basis-1/2">
         <div className="flex flex-col ">
           <div className="flex items-center justify-between sm:flex-col max-sm:flex-col sm:items-start max-sm:items-start md:flex-row">
             <h2 className="mb-2 text-2xl font-bold sm:basis-1/2 max-sm:basis-1/2 basis-1/2 text-text100 lg:text-2xl sm:text-xl max-sm:text-xl sm:text-start max-sm:text-start">{name}</h2>

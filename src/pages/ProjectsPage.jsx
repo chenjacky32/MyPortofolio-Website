@@ -52,7 +52,7 @@ export default function ProjectsPage() {
             ))}
           </ContainerProjectsGrid>
         ) : (
-          <div className="w-full p-5 mx-auto max-sm:w-full sm:mx-auto max-sm:mx-auto ">
+          <div className="w-full p-5 mx-auto md:px-0 max-sm:w-full sm:mx-auto max-sm:mx-auto ">
             {filteredProjects.map((item) => (
               <ItemProjectList key={item.id} {...item} />
             ))}
